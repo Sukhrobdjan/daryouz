@@ -13,3 +13,4 @@ class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}  # new
 
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(Link)

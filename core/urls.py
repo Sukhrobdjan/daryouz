@@ -29,6 +29,7 @@ urlpatterns = [
     ),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('admin/', admin.site.urls),
+    path('api/', include('post.urls')),
 ]
 
 # MEDIA URLS

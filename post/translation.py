@@ -15,7 +15,3 @@ class LinkTranslationOptions(TranslationOptions):
     fields = ('title',)
 translator.register(Link, LinkTranslationOptions)
 
-
-# class CommentTranslationOptions(TranslationOptions):
-#     fields = ('content',)
-# translator.register(Comment, CommentTranslationOptions)
